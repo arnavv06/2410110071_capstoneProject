@@ -1,71 +1,64 @@
-Template for creating and submitting MAT496 capstone project.
-
 # Overview of MAT496
 
 In this course, we have primarily learned Langgraph. This is helpful tool to build apps which can process unstructured `text`, find information we are looking for, and present the format we choose. Some specific topics we have covered are:
 
 - Prompting
-- Structured Output 
+- Structured Output
 - Semantic Search
-- Retreaval Augmented Generation (RAG)
+- Retrieval Augmented Generation (RAG)
 - Tool calling LLMs & MCP
 - Langgraph: State, Nodes, Graph
 
 We also learned that Langsmith is a nice tool for debugging Langgraph codes.
 
-------
+---
 
-# Capstone Project objective
-
-The first purpose of the capstone project is to give a chance to revise all the major above listed topics. The second purpose of the capstone is to show your creativity. Think about all the problems which you can not have solved earlier, but are not possible to solve with the concepts learned in this course. For example, We can use LLM to analyse all kinds of news: sports news, financial news, political news. Another example, we can use LLMs to build a legal assistant. Pretty much anything which requires lots of reading, can be outsourced to LLMs. Let your imagination run free.
-
-
--------------------------
-
-# Project report Template
-
-## Title: [your title goes here]
+## Title: Multi-Agent Debate Decision Advisor
 
 ## Overview
 
-[your overview goes here. My project does this that  etc]
+**Multi-Agent Debate Decision Advisor** is an **AI-Powered,** **LangGraph** based system used to help users reach well-reasoned decisions by producing a structured debate between three AI agents. When the user enters a claim, the **Supporter** argues in its favour, the **Critic** challenges it through counter-arguments, and the **Judge** evaluates both sides using RAG over a *logical fallacies* or *debate rules* or some other document. The Judge then provides a structured verdict summarising the pros, cons, and a final recommendation with a confidence score. The project demonstrates how multi-agent reasoning, retrieval, and structured prompting can be combined to reach a balanced decision and achieve critical thinking.
 
 ## Reason for picking up this project
 
-Expain how this project is aligned with this course content.
+* Seemed cool
+
+ includes every key topic taught in the MAT496 course in a meaningful way:
+
+* **Prompting:** Uses prompts for the Supporter, Critic, and Judge agents.
+* **Structured Output:** Produces a consistent JSON “Verdict” with pros, cons, and recommendations.
+* **Semantic Search:** Retrieves relevant information to support or counter the user’s claim.
+* **Retrieval Augmented Generation (RAG):** Judge agent uses a fallacy/rules document to evaluate arguments.
+* **Tool Calling:** Supporter and Critic call search tools to gather external evidence.
+* **LangGraph (State, Nodes, Graph):** Entire debate flows through a multi-agent LangGraph pipeline.
 
 ## Plan
 
-I plan to excecute these steps to complete my project.
+I plan to execute these steps to complete my project.
 
-- [TODO] Step 1 involves blah blah
-- [TODO] Step 2 involves blah blah
-- [TODO] Step 3 involves blah blah
-- ...
-- [TODO] Step n involves blah blah
+* [TODO]  **Step 1: Prompt Design**
+  * involves writing simple prompts for the three agents (Optimist, Skeptic, Judge) so they behave consistently in the debate.
+* **[TODO] Step 2: Prepare RAG material**
+  * involves preparing the RAG material by providing debate-rules/fallacies document and breaking it into chunks.
+* **[TODO] Step 3: Build the Vector Store**
+  * involves creating embeddings for those chunks and storing them in a small vector database for retrieval.
+* **[TODO ] Step 4: Setup LangGraph State**
+  * involves defining a basic LangGraph state to hold the claim, the arguments generated, and the final verdict.
+* **[TODO] Step 5: Implement the Supporter Node**
+  * involves building the Supporter node, which searches for supportive evidence and generates pro-arguments.
+* **[TODO] Step 6: Implement the Critic Node**
+  * involves building the Critic node, which finds counter-evidence and produces opposing arguments.
+* **[TODO] Step 7: Implement the Judge Node**
+  * involves building the Judge node, which uses RAG to check arguments against debate rules and outputs the structured verdict.
+* **[TODO] Step 8: Build the Multi-Agent Graph**
+  * involves connecting all three nodes into a single LangGraph pipeline so the debate flows from one agent to the next.
+* **[TODO] Step 9: Run a demo**
+  * involves making a small demo where the user enters a claim and sees the final decision report.
+* **[TODO] Step 10: Final Documentation & Testing**
+  * involves final polishing: documentation, sample outputs testing etc.
 
 ## Conclusion:
 
-I had planned to achieve {this this}. I think I have/have-not achieved the conclusion satisfactorily. The reason for your satisfaction/unsatisfaction.
+To be filled upon completion.
 
-----------
-
-# Added instructions:
-
-- This is a `solo assignment`. Each of you will work alone. You are free to talk, discuss with chatgpt, but you are responsible for what you submit. Some students may be called for viva. You should be able to each and every line of work submitted by you.
-
-- `commit` History maintenance.
-  - Fork this respository and build on top of that.
-  - For every step in your plan, there has to be a commit.
-  - Change [TODO] to [DONE] in the plan, before you commit after that step. 
-  - The commit history should show decent amount of work spread into minimum two dates. 
-  - **All the commits done in one day will be rejected**. Even if you are capable of doing the whole thing in one day, refine it in two days.  
- 
- - Deadline: Nov 30, Sunday 11:59 pm
-
-
-# Grading: total 25 marks
-
-- Coverage of most of topics in this class: 20
-- Creativity: 5
-  
+---
