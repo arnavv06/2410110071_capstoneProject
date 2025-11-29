@@ -39,9 +39,11 @@ I plan to execute these steps to complete my project.
 * [TODO]  **Step 1: Prompt Design**
   * involves writing simple prompts for the three agents (Supporter, Critic, Judge) so they behave consistently in the debate.
 * **[TODO] Step 2: Prepare RAG material**
-  * involves preparing the RAG material by providing debate_rules/fallacies document and breaking it into chunks.
+  * involves preparing the RAG material by providing debate_rules/fallacies document
+  * break it into chunks.
 * **[TODO] Step 3: Build the Vector Store**
-  * involves creating embeddings for those chunks and storing them in a small vector database for retrieval.
+  * involves creating embeddings for those chunks
+  * store them in a small vector database for retrieval.
 * **[TODO ] Step 4: Setup LangGraph State**
   * involves defining a basic LangGraph state to hold the claim, the arguments generated, and the final verdict.
 * **[TODO] Step 5: Implement the Supporter Node**
