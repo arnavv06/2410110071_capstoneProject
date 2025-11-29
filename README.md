@@ -44,7 +44,7 @@ I plan to execute these steps to complete my project.
 * **[**DONE**] Step 3: Build the Vector Store**
   * involves creating embeddings for those chunks
   * store them in a small vector database for retrieval.
-* **[TODO ] Step 4: Setup LangGraph State**
+* **[**DONE**] Step 4: Setup LangGraph State**
   * involves defining a basic LangGraph state to hold the claim, the arguments generated, and the final verdict.
 * **[TODO] Step 5: Implement the Supporter Node**
   * involves building the Supporter node, which searches for supportive evidence and generates pro-arguments.
