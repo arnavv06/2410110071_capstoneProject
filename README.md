@@ -41,7 +41,7 @@ I plan to execute these steps to complete my project.
 * **[**DONE**] Step 2: Prepare RAG material**
   * involves preparing the RAG material by providing debate_rules/fallacies document
   * break it into chunks.
-* **[TODO] Step 3: Build the Vector Store**
+* **[**DONE**] Step 3: Build the Vector Store**
   * involves creating embeddings for those chunks
   * store them in a small vector database for retrieval.
 * **[TODO ] Step 4: Setup LangGraph State**
