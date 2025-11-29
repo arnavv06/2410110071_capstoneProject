@@ -38,7 +38,7 @@ I plan to execute these steps to complete my project.
 
 * [DONE]  **Step 1: Prompt Design**
   * involves writing simple prompts for the three agents (Supporter, Critic, Judge) so they behave consistently in the debate.
-* **[TODO] Step 2: Prepare RAG material**
+* **[**DONE**] Step 2: Prepare RAG material**
   * involves preparing the RAG material by providing debate_rules/fallacies document
   * break it into chunks.
 * **[TODO] Step 3: Build the Vector Store**
