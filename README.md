@@ -37,9 +37,9 @@ We also learned that Langsmith is a nice tool for debugging Langgraph codes.
 I plan to execute these steps to complete my project.
 
 * [TODO]  **Step 1: Prompt Design**
-  * involves writing simple prompts for the three agents (Optimist, Skeptic, Judge) so they behave consistently in the debate.
+  * involves writing simple prompts for the three agents (Supporter, Critic, Judge) so they behave consistently in the debate.
 * **[TODO] Step 2: Prepare RAG material**
-  * involves preparing the RAG material by providing debate-rules/fallacies document and breaking it into chunks.
+  * involves preparing the RAG material by providing debate_rules/fallacies document and breaking it into chunks.
 * **[TODO] Step 3: Build the Vector Store**
   * involves creating embeddings for those chunks and storing them in a small vector database for retrieval.
 * **[TODO ] Step 4: Setup LangGraph State**
@@ -53,9 +53,9 @@ I plan to execute these steps to complete my project.
 * **[TODO] Step 8: Build the Multi-Agent Graph**
   * involves connecting all three nodes into a single LangGraph pipeline so the debate flows from one agent to the next.
 * **[TODO] Step 9: Run a demo**
-  * involves making a small demo where the user enters a claim and sees the final decision report.
+  * involves making a small demo jupyter notebook where the user enters a claim and sees the final decision report.
 * **[TODO] Step 10: Final Documentation & Testing**
-  * involves final polishing: documentation, sample outputs testing etc.
+  * involves final polishing: documentation, main.py, sample outputs testing etc.
 
 ## Conclusion:
 
