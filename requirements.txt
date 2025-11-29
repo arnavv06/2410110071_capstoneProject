@@ -1,0 +1,12 @@
+pypdf
+chromadb
+openai
+langgraph
+langchain
+python-dotenv
+tavily-python
+requests
+sentence-transformers
+jupyter
+IPython
+grandalf
