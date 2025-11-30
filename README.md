@@ -46,7 +46,7 @@ I plan to execute these steps to complete my project.
   * store them in a small vector database for retrieval.
 * **[**DONE**] Step 4: Setup LangGraph State**
   * involves defining a basic LangGraph state to hold the claim, the arguments generated, and the final verdict.
-* **[TODO] Step 5: Tool Callling**
+* **[DONE] Step 5: Tool Calling**
   * involves defining external tool calls to help agents gather evidence before generating arguments.
 * **[TODO] Step 6: Implement the Supporter Node**
   * involves building the Supporter node, which searches for supportive evidence and generates pro-arguments.
