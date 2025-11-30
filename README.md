@@ -52,7 +52,7 @@ I plan to execute these steps to complete my project.
   * involves building the Supporter node, which searches for supportive evidence and generates pro-arguments.
 * **[DONE] Step 7: Implement the Critic Node**
   * involves building the Critic node, which finds counter-evidence and produces opposing arguments.
-* **[TODO] Step 8: Implement the Judge Node**
+* **[DONE] Step 8: Implement the Judge Node**
   * involves building the Judge node, which uses RAG to check arguments against debate rules and outputs the structured verdict.
 * **[TODO] Step 9: Build the Multi-Agent Graph**
   * involves connecting all three nodes into a single LangGraph pipeline so the debate flows from one agent to the next.
