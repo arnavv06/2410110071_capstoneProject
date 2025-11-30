@@ -48,7 +48,7 @@ I plan to execute these steps to complete my project.
   * involves defining a basic LangGraph state to hold the claim, the arguments generated, and the final verdict.
 * **[DONE] Step 5: Tool Calling**
   * involves defining external tool calls to help agents gather evidence before generating arguments.
-* **[TODO] Step 6: Implement the Supporter Node**
+* **[DONE] Step 6: Implement the Supporter Node**
   * involves building the Supporter node, which searches for supportive evidence and generates pro-arguments.
 * **[TODO] Step 7: Implement the Critic Node**
   * involves building the Critic node, which finds counter-evidence and produces opposing arguments.
