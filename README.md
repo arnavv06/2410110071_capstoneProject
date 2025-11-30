@@ -36,7 +36,7 @@ We also learned that Langsmith is a nice tool for debugging Langgraph codes.
 
 I plan to execute these steps to complete my project.
 
-* [DONE]  **Step 1: Prompt Design**
+* [**DONE**]  **Step 1: Prompt Design**
   * involves writing simple prompts for the three agents (Supporter, Critic, Judge) so they behave consistently in the debate.
 * **[**DONE**] Step 2: Prepare RAG material**
   * involves preparing the RAG material by providing debate_rules/fallacies document
@@ -46,17 +46,19 @@ I plan to execute these steps to complete my project.
   * store them in a small vector database for retrieval.
 * **[**DONE**] Step 4: Setup LangGraph State**
   * involves defining a basic LangGraph state to hold the claim, the arguments generated, and the final verdict.
-* **[TODO] Step 5: Implement the Supporter Node**
+* **[TODO] Step 5: Tool Callling**
+  * involves defining external tool calls to help agents gather evidence before generating arguments.
+* **[TODO] Step 6: Implement the Supporter Node**
   * involves building the Supporter node, which searches for supportive evidence and generates pro-arguments.
-* **[TODO] Step 6: Implement the Critic Node**
+* **[TODO] Step 7: Implement the Critic Node**
   * involves building the Critic node, which finds counter-evidence and produces opposing arguments.
-* **[TODO] Step 7: Implement the Judge Node**
+* **[TODO] Step 8: Implement the Judge Node**
   * involves building the Judge node, which uses RAG to check arguments against debate rules and outputs the structured verdict.
-* **[TODO] Step 8: Build the Multi-Agent Graph**
+* **[TODO] Step 9: Build the Multi-Agent Graph**
   * involves connecting all three nodes into a single LangGraph pipeline so the debate flows from one agent to the next.
-* **[TODO] Step 9: Run a demo**
+* **[TODO] Step 10: Run a demo**
   * involves making a small demo jupyter notebook where the user enters a claim and sees the final decision report.
-* **[TODO] Step 10: Final Documentation & Testing**
+* **[TODO] Step 11: Final Documentation & Testing**
   * involves final polishing: documentation, main.py, sample outputs testing etc.
 
 ## Conclusion:
