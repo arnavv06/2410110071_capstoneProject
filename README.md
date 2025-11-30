@@ -50,7 +50,7 @@ I plan to execute these steps to complete my project.
   * involves defining external tool calls to help agents gather evidence before generating arguments.
 * **[DONE] Step 6: Implement the Supporter Node**
   * involves building the Supporter node, which searches for supportive evidence and generates pro-arguments.
-* **[TODO] Step 7: Implement the Critic Node**
+* **[DONE] Step 7: Implement the Critic Node**
   * involves building the Critic node, which finds counter-evidence and produces opposing arguments.
 * **[TODO] Step 8: Implement the Judge Node**
   * involves building the Judge node, which uses RAG to check arguments against debate rules and outputs the structured verdict.
