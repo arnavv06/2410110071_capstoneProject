@@ -58,7 +58,7 @@ I plan to execute these steps to complete my project.
   * involves connecting all three nodes into a single LangGraph pipeline so the debate flows from one agent to the next.
 * **[DONE] Step 10: Run a demo**
   * involves making a small demo jupyter notebook where the user enters a claim and sees the final decision report.
-* **[TODO] Step 11: Final Documentation & Testing**
+* **[DONE] Step 11: Final Documentation & Testing**
   * involves final polishing: documentation, main.py, sample outputs testing etc.
 
 ## Conclusion:
