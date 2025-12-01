@@ -56,7 +56,7 @@ I plan to execute these steps to complete my project.
   * involves building the Judge node, which uses RAG to check arguments against debate rules and outputs the structured verdict.
 * **[DONE] Step 9: Build the Multi-Agent Graph**
   * involves connecting all three nodes into a single LangGraph pipeline so the debate flows from one agent to the next.
-* **[TODO] Step 10: Run a demo**
+* **[DONE] Step 10: Run a demo**
   * involves making a small demo jupyter notebook where the user enters a claim and sees the final decision report.
 * **[TODO] Step 11: Final Documentation & Testing**
   * involves final polishing: documentation, main.py, sample outputs testing etc.
