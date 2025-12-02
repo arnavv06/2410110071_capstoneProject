@@ -63,6 +63,10 @@ I plan to execute these steps to complete my project.
 
 ## Conclusion:
 
-To be filled upon completion.
+I had planned to achieve a **multi-agent** **debate system** capable of generating **evidence-based arguments** and delivering a clear **final** **verdict**. I believe I have achieved this satisfactorily, especially in terms of the objectives outlined at the beginning of this project. 
+
+However, during testing I observed that the judge returned an **“Undecided”** verdict for certain sensitive topics, particularly those involving **religion** and **ethics**. Although it was **expected** because the judge prioritized following strict reasoning-rule constraints, this behaviour could be **improved**.
+
+Overall, **I am satisfied** with the agents' performance and final result as the project achieves the functionality I had initially planned to build
 
 ---
