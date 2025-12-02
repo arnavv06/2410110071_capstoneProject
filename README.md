@@ -15,6 +15,8 @@ We also learned that Langsmith is a nice tool for debugging Langgraph codes.
 
 ## Title: Multi-Agent Debate Decision Advisor
 
+[https://youtu.be/zyYOtJ1bFi4](https://youtu.be/zyYOtJ1bFi4)
+
 ## Overview
 
 **Multi-Agent Debate Decision Advisor** is an **AI-Powered,** **LangGraph** based system used to help users reach well-reasoned decisions by producing a structured debate between three AI agents. When the user enters a claim, the **Supporter** argues in its favour, the **Critic** challenges it through counter-arguments, and the **Judge** evaluates both sides using RAG over a *logical fallacies* or *debate rules* or some other document. The Judge then provides a structured verdict summarising the pros, cons, and a final recommendation with a confidence score. The project demonstrates how multi-agent reasoning, retrieval, and structured prompting can be combined to reach a balanced decision and achieve critical thinking.
@@ -63,7 +65,7 @@ I plan to execute these steps to complete my project.
 
 ## Conclusion:
 
-I had planned to achieve a **multi-agent** **debate system** capable of generating **evidence-based arguments** and delivering a clear **final** **verdict**. I believe I have achieved this satisfactorily, especially in terms of the objectives outlined at the beginning of this project. 
+I had planned to achieve a **multi-agent** **debate system** capable of generating **evidence-based arguments** and delivering a clear **final** **verdict**. I believe I have achieved this satisfactorily, especially in terms of the objectives outlined at the beginning of this project.
 
 However, during testing I observed that the judge returned an **“Undecided”** verdict for certain sensitive topics, particularly those involving **religion** and **ethics**. Although it was **expected** because the judge prioritized following strict reasoning-rule constraints, this behaviour could be **improved**.
 
